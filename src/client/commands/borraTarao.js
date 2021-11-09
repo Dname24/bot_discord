@@ -7,7 +7,7 @@ const Filters = require('../../util/Filters');
 class CleanupCommand extends BaseCommand {
     constructor(client) {
         super(client, {
-            name: 'cleanup',
+            name: 'borraTarao',
             group: 'moderation',
             memberName: 'cleanup-guild',
             aliases: ['clean'],
